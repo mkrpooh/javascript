@@ -1,2 +1,2 @@
-let msg = "Hello, " + "Wildsteig";
+let msg = "Hello, " + "Wildsteig" + "Simmelsdorf";
 console.log( msg );
