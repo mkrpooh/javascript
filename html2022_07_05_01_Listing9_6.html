@@ -1,0 +1,20 @@
+<html lang="de">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" />
+        <meta charset="utf-8" />
+        <title>Methoden erweitern</title>
+    </head>
+    <body>
+        <h1>Neue Methoden mit prototype hinzufügen</h1>
+        <script>
+            function lokaleZeitDarstellung() {
+                return this.getDate() + "." + (this.getMonth() + 1) +
+                "." + (2000 + (1900 + this.getYear()) % 100);
+            }
+            Date.prototype.lokaleZeitDarstellung
+                = lokaleZeitDarstellung;
+            obj = new Date();
+            document.write(obj.lokaleZeitDarstellung());
+        </script>
+    </body>
+</html>
