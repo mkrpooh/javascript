@@ -4,4 +4,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Ein Objekt erzeugen</title>
     </head>
+    <body>
+        <h1>Ein Objekt mit einer selbstdefinierten
+            Konstruktormethode erzeugen
+        </h1>
+        <script>
+            function reden(was) {
+                document.write(this.personalnummer + ": " + was);
+            }
+            //Konstruktormethode
+            function Person(personalnummer, name) {
+                this.personalnummer = personalnummer;
+                this.name = name;
+                this.reden = reden;
+            }
+            //Objekterzeugung
+            firma = new Array();
+            firma["chef"] = new Person("1", "Christopher");
+            firma["projektleiter"] = new Person("007", "Christine");
+            firma["mitarbeiter1"] = new Person("010", "Luisa");
+            firma["mitarbeiter2"] = new Person("011", "Miriam");
+            // Anwenden der Objekte
+            document.write("Big Boss: " + firma["chef"].name + "<br />");
+            document.write("Projektverantwortlicher: " +
+                firma["projektleiter"].name + "<br />");
+            documet.write("Malocher 1: " + firma["mitarbeiter1"].name
+                + "<br />");
+            document.write("Malocher 2: " + firma["mitarbeiter2"].name
+                + "<hr />");
+            firma["chef"].reden("Und? Was macht das Projekt?<br />");
+            firma["projektleiter"].reden(
+                "Leider können wir den Zeitpla nicht halten.<br />"
+            );
+            firma["mitarbeiter1"].reden("Is ja klar, wenn es bei " +
+                "2 Häuptlingen nur 2 Indianer gibt.<br />");
+            firma["chef"].reden("Ich muss doch sehr bitten!!<br />");
+            firma["mitarbeiter2"].reden("Ist doch wahr!<br />");
+        </script>
+    </body>
 </html>
