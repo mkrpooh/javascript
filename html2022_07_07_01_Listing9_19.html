@@ -4,4 +4,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Vererbung</title>
     </head>
+    <body>
+        <h1>Vererbung in JavaScript</h1>
+        <script>
+            //Konstruktormethode Superklasse
+            function Person(name, vorname) {
+                this.name = name;
+                this.vorname = vorname;
+            }
+            //Konstruktormethode Subklasse
+            function Mitarbeiter(name, vorname, pid) {
+                this.constructor(name, vorname);
+                this.pid = pid;
+            }
+            Mitarbeiter.prototype= new Person();
+            var pfoertner = new Mitarbeiter("Mkrpooh", "Karl", "007");
+            document.write(pfoertner.vorname + " " + pfoertner.name
+                + " - Kennung: " + pfoertner.pid + "<br />");
+            document.write("Ist vorname eine Eigenschaft von dem Objekt? "
+                + pfoertner.hasOwnProperty("vorname") + "<br />");
+        </script>
+    </body>
 </html>
