@@ -1,0 +1,40 @@
+<html lang="de">
+    <head>
+       <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Datenkapselung</title>
+    </head>
+    <body>
+        <h1>Datenkapselung in JavaScript</h1>
+        <script>
+            //Konstruktormethode
+            function Person() {
+                var name = new Object();
+                var firmaInternerName = "Mkrpooh EDV DontKnow";
+                var internerName = "";
+                name.getName = function() {
+                    return internerName;
+                };
+                name.firma = firmaInternerName;
+                return name;
+            }
+            //Objektdarstellung und Anwendung
+            obj = new Person();
+            obj.setName("Luisa");
+            document.write(
+                "Indirekter Zugriff auf den Namen über einen Getter: "
+                + obj.getName() + "<br />"
+            );
+            document.write(
+                "Versuch des direkten Zugriffs auf den Mamen: "
+                + obj.name + "<br />"
+            );
+            document.write("Zugriff auf die freigegebene Eigenschaft: "
+                + obj.firma + "<br />");
+            document.write(
+                "Versuch des Zugriffs auf den internen Bezeichner" +
+                " der Eigenschaft: " + obj.firmaInternerName + "<br />"
+            );
+        </script>
+    </body>
+</html>
