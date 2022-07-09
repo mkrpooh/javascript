@@ -1,0 +1,31 @@
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fenster öffnen und schließen</title>
+        <script>
+            var mFenster;
+            function fenster_neu() {
+                mFenster = open("", "CFenster");
+            }
+            function leeresfenster_zu() {
+                if (mFenster.closed != true)
+                    mFenster.close();
+            }
+            function init() {
+                mFenster = open("werbebanner.html", "Afenster");
+                window.setTimeout('mFenster.close()', '3000');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>open() und close() in der Anwendung</h1>
+        <table border="5">
+            <form name="meinFormular">
+                <tr><td>Anzeige neue Textdatei</td>
+                <td><input type="button" value="OK" onClick=
+                    'window.open("text.txt", "Afenster")' /></td></tr>
+            </form>
+        </table>
+    </body>
+</html>
