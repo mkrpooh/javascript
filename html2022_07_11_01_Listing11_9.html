@@ -1,0 +1,22 @@
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Clientfenster</title>
+    </head>
+    <body>
+        <h3>Schliessen verschiedener Fenster</h3>
+        <table>
+            <form name="mFormular">
+                <tr><td>Schließe dieses Fenster</td>
+                    <td><input type="button" value="Zu"
+                    onClick="self.close()" /></td></tr>
+                <tr><td>Scließe Hauptfenster</td>
+                    <td><input type="button" value="Zu"
+                    onClick="window.close()" /></td></tr>
+                <tr><td>Schließe aufrufendes Fenster</td>
+                    <td><input type="button" value="Zu" onClick="window.close()" /></td></tr>
+            </form>
+        </table>
+    </body>
+</html>
