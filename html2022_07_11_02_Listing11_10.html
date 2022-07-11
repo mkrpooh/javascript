@@ -1,0 +1,28 @@
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fenster öffnen mit Optionen</title>
+        <script>
+            function f1() {
+                open("html2022_06_24_01_Listing4_9.txt", "Afenster", "width=600, height=150, " +
+                    " resizable=yes, directories=yes, menubar=yes, location=yes");
+            }
+            function f2() {
+                open("IMG_2500.JPG", "Afenster", "width=500, height=450, resizable=no, "
+                    + " directories=no, menubar=no, location=no");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Öffnen mit Optionen</h1>
+        <table border="5">
+            <form>
+                <tr><td>Anzeige einer neuen Textdatei</td>
+                    <td><input type="button" value="OK" onClick='f1()' /></td></tr>
+                <tr><td>Anzeige einer Grafik</td>
+                    <td><input type="button" value="OK" onClick='f2()' /></td></tr>
+            </form>
+        </table>
+    </body>
+</html>
