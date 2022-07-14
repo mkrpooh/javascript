@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Seite 79</title>
-        <script src="scripts/main.js"></script>
+        <!-- //<script src="scripts/main.js"></script> -->
     </head>
-    <!-- <body onLoad="showMessage()"> --> 
+    //<body onLoad="showMessage()">
     <body>
-        <script>showMessage()</script>
-        <!-- <script src="scripts/main.js"></script> -->
         
+        //<script src="scripts/main.js"></script>
+        //showMessage();
     </body>
 </html>
