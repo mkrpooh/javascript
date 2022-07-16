@@ -1,11 +1,11 @@
 function compareNumbers(numberAtI, numberAtJ) {
     if(numberAtI === numberAtJ) {
         console.log(`Doppelte Zahl gefunden: ${numberAtI}`);
-        document.write(`Doppelte Zahl gefunden: ${numberAtI}`);
+        document.write(`Doppelte Zahl gefunden: ${numberAtI} <br />`);
     }
 }
 function checkNumber(numberAtI, numbers, i) {
-    for(let j = j + 1; j < numbers.length; j++) {
+    for(let j = i + 1; j < numbers.length; j++) {
         const numberAtJ = numbers[ j ];
         compareNumbers(numberAtI, numberAtJ);
     }
