@@ -6,6 +6,15 @@ function compareNumbers(numberAtI, numberAtJ) {
 }
 function checkNumber(numberAtI, numbers, i) {
     for(let j = j + 1; j < numbers.length; j++) {
-        const numberAtJ
+        const numberAtJ = numbers[ j ];
+        compareNumbers(numberAtI, numberAtJ);
     }
 }
+function findDuplicates() {
+    const numbers = [2, 4, 5, 2, 5, 8, 5, 4711];
+    for(let i = 0; i < numbers.length; i++) {
+        checkNumber(numbers[ i ], numbers, i);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', findDuplicates);
