@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ein Bier-Blog</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Mein Bier-WeBlog</h1>
+            <p>Ein WeBlog zu süffigen Bieren aus aller Welt</p>
+        </header>
+        <nav>
+            <p>
+                <a href="#">WeBlog</a> | <a href="#">Biere</a> |
+                <a href="#">Über mich</a> | <a href="#">Impressum</a>
+            </p>
+        </nav>
+        <main>
+            <article>
+                <h2>Süffige Biere aus aller Welt, selbst probiert</h2>
+                <p>Empfehlung des Tages: Märzen von der Stiegl-Brauerei in Sakzburg</p>
+                <p>...hat schon Reinhold Messner auf dem Nanga-Parbat getrunken!</p>
+                <h3>Weitere süffige Biere</h3>
+                <ul>
+                    <li><a href="#">Ottakringer aus Wien</a></li>
+                    <li><a href="#">Gösser aus Kärnten</a></li>
+                </ul>
+            </article>
+        </main>
+        <footer>
+            <hr>
+            <p>
+                <a href="#">Kontakt</a> | <a href="#">Fragen</a> |
+                <a href="#">Über Pooh</a> | <a href="#">Eingedrückt</a>
+            </p>
+        </footer>
+    </body>
+</html>
