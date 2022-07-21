@@ -1,0 +1,16 @@
+/* Datei: styles/main.css */
+body {
+    margin: 0px;
+}
+h1 {
+    font-family: "Verdana", "Geneva";
+    font-size: 200%;
+    text-align: center;
+}
+button,
+p {
+    font-family: "Verdana", "Geneva";
+    background: #add8e6;
+    padding: 10px;
+    text-align: center;
+}
