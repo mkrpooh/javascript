@@ -1,0 +1,22 @@
+/* styles/style.css */
+
+/* Schwarzer Rahmen,
+    Zentrierter Text,
+    5 Pixel Abstandvon oben */
+
+header,
+nav,
+footer {
+    text-align: center;
+    border: 1px solid orange;
+    margin-top: 10px;
+}
+
+/* Grauer Text */
+
+h1,
+abbr { color: gray;}
+
+/* Grauer gepunkteter Rahmen */
+
+p { border: 1px dotted gray}
