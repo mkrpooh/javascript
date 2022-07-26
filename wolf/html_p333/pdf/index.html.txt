@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seite 333</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>Mein Zeitungs-Paradies</header>
+        <nav>Zeitungen aus aller Welt</nav>
+        <main>
+            <h1>Meine Favoriten :</h1>
+            <p>KronenZeitung</p>
+            <p>WienerKurier</p>
+            <p>Salzburger Nachrichten</p>
+            <p>BöhmeZeitung</p>
+            <p>Süddeutsche</p>
+            <p>FrankfurterAllgemeine</p>
+            <p>NeueZüricherZeitung</p>
+            <p>Die Weltwoche</p>
+        </main>
+        <footer>Rehorik-Kaffee,ein Genuss zur Zeitung</footer>
+    </body>
+</html>
