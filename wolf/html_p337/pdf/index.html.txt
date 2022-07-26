@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seite 337</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Das Buch "Mia san Mia" von König Ludwig II auf Neuschwanstein</h1>
+        <p>>VerlagsWebSeite vom Verlag "Schloß NeuSchwanStein": <a href="http://www.suse.de/" title="Zur Verlagswebsite">NeuSchwanStein Verlag</a></p>
+        <p title="Ein Absatz mit title">Bücher aus Bayern gibts beim Schloß-NeuSchwanStein-Verlag</p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+/* Datei: css/style.css
+*/
+
+/* Styling für alle Elemente mit dem Attribut title
+*/
+[title] { border: 3px solid red; }
