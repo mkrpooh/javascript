@@ -1,0 +1,21 @@
+/*  Datei: style.css
+*/
+
+/*  Styling für alle html-Elemente wo title
+    den Attributwert deprecated besitzt
+*/
+[title=deprecated] {
+    color: green;
+    text-decoration: line-through;
+}
+
+/*  Styling von html-Elementen wo title im
+    Attributwert das Wort "SUSE" enthält
+*/
+[title~=SUSE] { font-weight: bold; }
+
+/*  Styling von html-Elementen wo hreflang
+    mit dem Attributwert de, gefolgt von 
+    einem Bindestrich, beginnt
+*/
+[hreflang|=de] { font-weight: bold; color: red; }

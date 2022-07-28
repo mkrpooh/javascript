@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <title>Seite 339</title>
+    </head>
+    <body>
+        <h1>[title=deprecated]</h1>
+        <p>Das SUSE-Betriebssystem <code title=deprecated>Linux 1.0.2</code> ist veraltet und sollte durch <code>Linux 1.2.3</code> erstzt werden</p>
+        <h1>[title~=SUSE]</h1>
+        <ul>
+            <li>
+                <a href="http://www.suse.de/" title="Zur SUSE GmbH Website">SUSE GmbH</a>
+            </li>
+            <li>
+                <a href="https://de.wikipedia.org/wiki/SUSE_(Unternehmen)" title="Zur SUSE Wikipedia-Seite">SUSE bei Wikipedia</a>
+            </li>
+        </ul>
+        <h1>[hreflang|=de]</h1>
+        <ul>
+            <li><a href="http://www.suse.de/" hreflang="de-de">Deutsche Version</a></li>
+            <li><a href="http://www.suse.com/" hreflang="en-de">Englische Version</a></li>
+        </ul>
+
+    </body>
+</html>
