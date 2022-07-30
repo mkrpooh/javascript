@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seite 343</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Mein MineralWasserParadies</h1>
+        <p>Viele Informationen zu leckeren Mineralwässern in Österreich gibts auf dieser <a href="http://www.google.at">WebSite</a>.</p>
+        <p>Hier noch ein <a href="pdf/test.pdf">PDF-Dokument zum Mineralwasser</a> . Sehr interessant!</p>
+        <p>Interessante MineralWasserLinks in Österreich</p>
+        <ul>
+            <li><a href="http://www.voeslauer.at">Vöslauer</a></li>
+            <li><a href="http://www.roemerquelle.de"><h3>RömerQuelle</h3></a></li>
+            <li><a href="https://www.ottakringerbrauerei.at/en/"><h3>Ottakringer</h3></a></li>
+            <li><a href="https://burgenland.orf.at/stories/3134976/"><h3>Güssinger</h3></a></li>
+        </ul>
+    </body>
+</html>

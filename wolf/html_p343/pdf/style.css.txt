@@ -1,0 +1,27 @@
+/*   Datei css/style.css
+*/
+h1 { color: red; }
+
+/*  Style alle a-Elemente
+    wo das Attribut href
+    mit http:// beginnt
+*/
+a[href^="http://"] {
+    text-decoration: none;
+    border-bottom: 1px dotted blue;
+}
+
+/*  Styling für a-Elemente wo das
+    Attribut href mit .pdf endet
+*/
+a[href$=".pdf"] {
+    text-decoration: none;
+    color: brown;
+    padding: 1px;
+    border: 3px dotted red;
+}
+
+/*  Styling für a-Elemente wo im Attribut
+    href die Textfolge voeslauer enthalten ist
+*/
+a[href*=voeslauer] { font-weight: bold; color: red; }
