@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seite 347a</title>
+        <link href="css/style2.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>:hover und :focus</h1>
+        <ul>
+            <li><a href="http://www.sueddeutsche.de/">Süddeutsche Zeitung München</a></li>
+            <li><a href="http://www.boehme-zeitung.de">Böhme Zeitung Soltau</a></li>
+            <li><a href="http://www.kurier.at/">Kurier Wien</a></li>
+        </ul>
+        <h2>:focus</h2>
+        <form>
+            Ihr Name: <input type="text" name="name" id="name" placeholder="Dein Name" />
+        </form>
+    </body>
+</html>
