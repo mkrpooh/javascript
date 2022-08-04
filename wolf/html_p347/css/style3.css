@@ -1,0 +1,5 @@
+h1 { color: red; }
+h2 { color: blue; }
+:target { background: lightgray; }
+div#einblenden { display: none; }
+div#einblenden:target { display: block; }
