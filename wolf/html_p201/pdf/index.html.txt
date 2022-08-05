@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seite 201</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <body>
+        <h1 id="top">Biere aus Bayern und Österreich</h1>
+        <ul>
+            <li><a href="#goesser">Die Gösser-Brauerei</a></li>
+            <li><a href="#ottakringer">Die Ottakringer Brauerei</a></li>
+            <li><a href="#stiegl">Die Stiegl-Brauerei</a></li>
+            <li><a href="#paulaner">Die Paulaner-Brauerei</a></li>
+            <li><a href="#loewenbraeu">Die Löwenbräu-Brauerei</a></li>
+        </ul>
+        <h2 id="goesser">Gösser gebraut in ...</h2>
+        <p>Österreich</p>
+        <p><a href="#top">Zum Anfang</a></p>
+        <h2 id="ottakringer">Ottakringer gebraut in ...</h2>
+        <p>Österreich</p>
+        <p><a href="#top">Zum Anfang</a></p>
+        <h2 id="stiegl">Stiegl gebraut in ...</h2>
+        <p>Österreich</p>
+        <p><a href="#top">Zum Anfang</a></p>
+        <h2 id="paulaner">Paulaner gebraut in ...</h2>
+        <p>Bayern</p>
+        <p><a href="#top">Zum Anfang</a></p>
+        <h2 id="loewenbraeu">Löwenbräu gebraut in ...</h2>
+        <p>Bayern</p>
+        <p><a href="#top">Zum Anfang</a></p>
+    </body>
+</html>
