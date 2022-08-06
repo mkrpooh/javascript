@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+    <meta charset="utf-8">
+    <title>Seite 351</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>:root & :empty</h1>
+        <p>Heute ist in Simmelsdorf Regenschauer und Gewitter</p>
+        <p></p>
+        <h2>:empty auf Tabelle</h2>
+        <table>
+            <tbody>
+                <tr><td>Ibn Sina</td><td></td></tr>
+                <tr><td></td><td>Columbus</td></tr>
+                <tr><td></td><td></td></tr>
+            </tbody>
+        </table>
+    </body>
+</html>
